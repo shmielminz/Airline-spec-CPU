@@ -2,7 +2,7 @@
 I have an airline called 'Fly Air' and flights are getting booked 
 but I can't keep track on how many people I have on each flight? and who's flying?
 
-After searching for a softwere developer I found you, and I heard very good information, 
+After searching for a softwere developer I found you, and I heard very good information of your team, 
 so please help me and build me a strong database that would be able to provide me easily with all the details that I would need to search for,
 so that I wouldn't need to look any more in the paper files in my cupboard.
 
@@ -12,14 +12,19 @@ when you book the flight you would only need to provide your name and DOB and ad
 but in order to be checked in we need the passport details as passport number, date of issue, expiry date, and nationality.
 
 The reports I need is as following:
-    1) How many people booked per flight, with the names as lastname, firstname.
-    2) Who checked in already per flight?
-    3) How many flights are departing per day?
-    4) How many flights are departing per destination?
+    1) How many people booked per flight, 
+        with the names as lastname, firstname, If they checked in, departure airport, when the flight is departing, destination .
+    2) Who isn't checked in for flights departing in the next week, in order to send them reminders to check in.
+    3) How many flights are departing per day, and num of passengers we have on those flights.
+    4) How many flights are departing per destination, and num of passengers we have on those flights, to know what route is attracts most people.
 
-Question: What age is the youngest the passenger can be?
+Question: What's the flight numbers you use?
+Answer: We have three letters from our name 'FLY' and then 3 digits starting from 001.
+
+Question: What age are your passengers?
 Answer: The law requires that passengers on our flights must all be adults, 
     so we require they should be at least 16 years old, but we would allow if they turn 16 that year.
+    And the oldest we would allow is 90 for medical reasons.
 
 Question: Do you need to know the Gender?
 Answer: No need.
@@ -45,6 +50,6 @@ Sample data in following direction:
     FLY003, LGW, UK, TLV, Israel, 20/01/2022 7:55PM, 21/01/2022 3:00AM, Mike Markowicz, 09/12/1970, 45 Baker Street
     FLY004, TLV, Israel, LGW, UK, 09/10/2020 6:40AM, 09/10/2020 9:30AM, Nick Smith, 27/03/1998, 29 London Avenue
     FLY004, TLV, Israel, LGW, UK, 09/10/2020 6:40AM, 09/10/2020 9:30AM, John, Smith, 20/10/2004, 29 London Avenue, 209989911, 10/09/2018, 10/09/2023, UK
-
+    FLY101, EWR, USA, TLV, Israel, 05/01/2021 9:00AM, 06/01/2021 2:30AM, Jack, Marks, 27/03/1995, 12 Ross Street
 
 */
