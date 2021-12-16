@@ -41,6 +41,8 @@ Answer: Depends if the destination is in same country, it will just need to be v
     But if it's a international flight, it needs to be maximum 9 years and 6 month after it was issued.
     But bare in mind that a passport that is from before 16 years old is just for 5 years.
 
+Question: How long before flight can you book?
+Answer: Up to 1 year before the flight, check in opens 30 days before departure.
 
 Sample data in following direction: 
     Flight number, Departure Airport, Country, Arrival Airport, Country, Time Departing, Time Arriving, Name, DOB (dd/mm/yyyy), Address, (Passport number, Issue date, Expiry date, Nationality) if provided
