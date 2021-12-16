@@ -2,14 +2,10 @@
 I have an airline called 'Fly Air' and flights are getting booked 
 but I can't keep track on how many people I have on each flight? and who's flying?
 
-After searching for a softwere developer I found you, and I heard very good information of your team, 
-so please help me and build me a strong database that would be able to provide me easily with all the details that I would need to search for,
-so that I wouldn't need to look any more in the paper files in my cupboard.
-
 Each flight has a flight number on each route for each time they leave, and I can have multiple flights a day on the same route,
 so I would need to keep track on how many people have booked on each flight,
 when you book the flight you would only need to provide your name and DOB and address 
-but in order to be checked in we need the passport details as passport number, date of issue, expiry date, and nationality.
+but in order to be checked in and travel we need the passport details as passport number, date of issue, expiry date, and nationality.
 
 The reports I need is as following:
     1) How many people booked per flight, 
@@ -17,6 +13,7 @@ The reports I need is as following:
     2) Who isn't checked in for flights departing in the next week, in order to send them reminders to check in.
     3) How many flights are departing per day, and num of passengers we have on those flights.
     4) How many flights are departing per destination, and num of passengers we have on those flights, to know what route is attracts most people.
+    5) How many people booked but in the end they didn't travel.
 
 Question: What's the flight numbers you use?
 Answer: We have three letters from our name 'FLY' and then 3 digits starting from 001.
@@ -25,9 +22,6 @@ Question: What age are your passengers?
 Answer: The law requires that passengers on our flights must all be adults, 
     so we require they should be at least 16 years old, but we would allow if they turn 16 that year.
     And the oldest we would allow is 90 for medical reasons.
-
-Question: Do you need to know the Gender?
-Answer: No need.
 
 Question: What type of passports do your passengers have?
 Answer: All passengers that are traveling with us have passports that has 9 digits in it and starts with any digit except 0.
