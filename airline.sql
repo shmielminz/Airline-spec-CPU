@@ -8,8 +8,7 @@ when you book the flight you would only need to provide your name and DOB and ad
 but in order to be checked in and travel we need the passport details as passport number, date of issue, expiry date, and nationality.
 
 The reports I need is as following:
-    1) How many people booked per flight, 
-        with the names as lastname, firstname, If they checked in, departure airport, when the flight is departing, destination .
+    1) How many people booked per flight, as flight number, departure airport, when the flight is departing, destination.
     2) Who isn't checked in for flights departing in the next week, in order to send them reminders to check in.
     3) How many flights are departing per day, and num of passengers we have on those flights.
     4) How many flights are departing per destination, and num of passengers we have on those flights, to know what route is attracts most people.
