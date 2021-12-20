@@ -1,3 +1,4 @@
+--LB: Very nice spec! Clear and creative! see one comment below.
 /*
 I have an airline called 'Fly Air' and flights are getting booked 
 but I can't keep track on how many people I have on each flight? and who's flying?
@@ -8,6 +9,7 @@ when you book the flight you would only need to provide your name and DOB and ad
 but in order to be checked in and travel we need the passport details as passport number, date of issue, expiry date, and nationality.
 
 The reports I need is as following:
+--LB: Question below requires a group by flight, it won't make sense to show all people details in same report. (will have to group by details also.)
     1) How many people booked per flight, 
         with the names as lastname, firstname, If they checked in, departure airport, when the flight is departing, destination .
     2) Who isn't checked in for flights departing in the next week, in order to send them reminders to check in.
