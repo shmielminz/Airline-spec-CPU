@@ -13,6 +13,7 @@ The reports I need is as following:
     3) How many flights are departing per day, and num of passengers we have on those flights.
     4) How many flights are departing per destination, and num of passengers we have on those flights, to know what route is attracts most people.
     5) How many people booked but in the end they didn't travel.
+    6) How many flights does each person have (to know for frequent flyer status), as last name, first name, number of flights.
 
 Question: What's the flight numbers you use?
 Answer: We have three letters from our name 'FLY' and then 3 digits starting from 001.
