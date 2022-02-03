@@ -10,8 +10,8 @@ but in order to be checked in and travel we need the passport details as passpor
 The reports I need is as following:
     1) How many people booked per flight, as flight number, departure airport, when the flight is departing, destination.
     2) Who isn't checked in for flights departing in the next week, in order to send them reminders to check in.
-    3) How many flights are departing per day, and num of passengers we have on those flights.
-    4) How many flights are departing per destination, and num of passengers we have on those flights, to know what route is attracts most people.
+    3) What flights are departing per day, and num of passengers we have on those flights.
+    4) What flights are departing per destination, and num of passengers we have on those flights, to know what route is attracts most people.
     5) How many people booked but in the end they didn't travel.
     6) How many flights does each person have (to know for frequent flyer status), as last name, first name, number of flights.
 
